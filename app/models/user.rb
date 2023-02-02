@@ -5,6 +5,8 @@ class User < ApplicationRecord
 
   validates :name, presence: true
   validates :name, presence: true, length: { in: 3..25 }
+  validates :photo, presence: true
+  validates :bio, presence: true
 
   def recent_posts
     posts.order(created_at: :desc).limit(3)
