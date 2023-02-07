@@ -27,23 +27,23 @@ RSpec.describe 'UsersController', type: :request do
   end
 end
 
-describe "GET #show" do
+describe 'GET #show' do
   before(:example) { get user_path(id: 1) }
-  it "returns http success" do
+  it 'returns http success' do
     # get '/users/1'
     # get user_path(id: 1)
     expect(response).to have_http_status(:ok)
   end
 
-  it "renders the correct template" do
+  it 'renders the correct template' do
     # get '/users/1'
     # get user_path(id: 1)
     expect(response).to render_template(:show)
   end
 
-  it "includes the correct placeholder text in the response body" do
+  it 'includes the correct placeholder text in the response body' do
     # get '/users/1'
     # get user_path(id: 1)
-    expect(response.body).to include("Hello from a selected user page!")
+    expect(response.body).to include('Hello from a selected user page!')
   end
 end
