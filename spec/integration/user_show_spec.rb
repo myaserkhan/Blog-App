@@ -43,7 +43,6 @@ RSpec.describe 'User Index Page', type: :feature do
       expect(page).to have_link('See all Posts', href: user_posts_path(user_id: @user.id))
     end
 
-
     it 'redirects to the post show page on clicking a user post' do
       # post_link = user_post_path(user_id: @user.id, id: @post.id)
       # find("a[href='#{post_link}']").click
