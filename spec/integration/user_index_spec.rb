@@ -9,7 +9,6 @@ RSpec.describe 'User Index Page', type: :feature do
   describe 'User index page' do
     before(:each) { visit users_path }
 
-
     it 'displays a container for the users' do
       expect(page).to have_css('section.all_users_container')
     end
