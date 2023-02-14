@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'User Index Page', type: :feature do
-  before :each do
+  before(:each) do
     @user = User.create(name: 'Doraemon & Nobita', photo: 'https://unsplash.com/photos/F_-0BxGuVvo',
                         bio: 'Best friends', PostsCounter: 12)
     @post = Post.create(title: 'Physics', text: 'This is not my first post', comments_counter: 10, likes_counter: 10,
@@ -35,6 +35,8 @@ RSpec.describe 'User Index Page', type: :feature do
 
     it 'shows the first 3 posts of the user' do
       @user.recent_posts.each do |post|
+        expect(page).to have_content(post.id)
+        expect(page).to have_content(post.title)
         expect(page).to have_content(post.text)
       end
     end

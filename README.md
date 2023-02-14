@@ -56,6 +56,8 @@ The **Blog app** is a classic example of a blog website. It is a fully functiona
 - Use RubyGems as a software package system.
 - Use database migration files to maintain database schema.
 - Understand ORM
+- Update Views and add forms
+- Validations, Model specs, and n+1 problems
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,7 +108,7 @@ To run the project, execute the following command:
 To run all tests, including unit and integration tests, run the following command:
 
 ```
-  rails test:all
+  rspec
 ```
 
 ### Deployment
@@ -122,9 +124,11 @@ You can deploy this project using:
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
+ 
+👤 **Yasir Khan**
 
-- GitHub: [@myaserkhan](https://github.com/myaserkhan)
+- GitHub: [myaserkhan](https://github.com/myaserkhan)
 - Twitter: [@khanyaser007](https://twitter.com/khanyaser007)
 - LinkedIn: [Yasir Khan](https://www.linkedin.com/in/myaserkhan/)
 
@@ -135,9 +139,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Views.
-- Forms
-- Validations, Model specs, and n+1 problems.
 - Add Devise.
 - Add authorization rules.
 - Integration specs for Views.
