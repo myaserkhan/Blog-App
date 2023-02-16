@@ -36,7 +36,7 @@ class PostsController < ApplicationController
       render :show, status: 400
     end
   end
-  
+
   private
 
   def find_user
