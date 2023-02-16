@@ -132,6 +132,16 @@ You can deploy this project using:
 - Twitter: [@khanyaser007](https://twitter.com/khanyaser007)
 - LinkedIn: [Yasir Khan](https://www.linkedin.com/in/myaserkhan/)
 
+👤 **Harrison Njuguna**
+
+- GitHub: [@Harrynoqs](https://github.com/Harrynoqs)
+- Twitter: [@Harrynoqs](https://twitter.com/noqsnoq1)
+- LinkedIn: [harrisonw-njuguna](https://linkedin.com/in/harrisonw-njuguna)
+  
+👤 **Gilbert Okonjo**
+
+- GitHub: [@githubhandle](https://github.com/OpondoG)
+- LinkedIn: [@linkedinn](https://www.linkedin.com/in/gilbert-okonjo/)  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
