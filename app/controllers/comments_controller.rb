@@ -29,7 +29,7 @@ class CommentsController < ApplicationController
       render :show, status: 400
     end
   end
-  
+
   private
 
   def set_post
